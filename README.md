@@ -34,6 +34,11 @@ touch .ts3server_license_accepted
 启动服务器
 ./ts3server_startscript.sh start
 
+查看服务器状态
+systemctl start ts3.service 
+systemctl restart ts3.service 
+systemctl stop ts3.service 
+systemctl status ts3.service 
 
 
 
